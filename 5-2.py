@@ -2,9 +2,10 @@
 quantidade = int(input("Insira a quantidade de elementos que a lista deve possuir: "))
 #Definindo a lista
 lista = []
-for elementos in range(quantidade):
-    lista.append(int(input("Insira um elemento à lista: ")))
-    if (elementos%2==0):
-    lista.remove(elementos)
-print(Gerando nova lista...)
+for i in range(quantidade):
+    elemento = int(input("Insira um elemento à lista: "))
+    lista.append(elemento)
+    if elemento % 2 == 0:
+        lista.remove(elemento)
+print("Gerando nova lista...")
 print(lista)
