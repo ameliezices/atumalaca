@@ -2,7 +2,7 @@ print("Montaremos uma lista e observaremos se ela está sendo apresentada em ord
 numero = int(input("Insira a quantidade de elementos da lista: "))
 lista = []
 for i in range(numero):
-    lista.append = float(input(f"Defina o elemento {i + 1}: "))
+    lista.append(float(input(f"Defina o elemento {i + 1}: ")))
 print(f"A lista foi definida como {lista}.")
 crescente = True
 for i in range(len(lista) - 1):
