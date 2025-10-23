@@ -6,4 +6,7 @@ if len(lst1) > len(lst2):
   print("A primeira sequência não pode ser maior que a primeira. Tente novamente inserindo primeiro uma sequência de quantidade menor ou igual à quantidade da outra.")
 else:
   contador = 0
-  for i in range()
+  for i in range(len(lst2) - len(lst1) + 1):
+    if lst2[i:i + len(lst1)] == lst1:
+      contador += 1
+print(f"A sequência 1 se repete {contador} vez/vezes na sequência 2.")
