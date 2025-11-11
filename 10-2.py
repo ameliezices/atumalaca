@@ -10,7 +10,7 @@ def mdc(a, b):
     return a
 
 def mmc(a, b):
-    mdcab = mdc(a, b)
-    return (a * b) / mdcab
+    maxdiv = mdc(a, b)
+    return (a * b) / maxdiv
 
 print(f"O MMC entre {a} e {b} é {mmc(a, b)}")
